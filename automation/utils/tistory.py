@@ -130,6 +130,14 @@ class Tistory:
         if cls.ACCESS_TOKEN is None:
             cls.set_access_token()
 
+        # DB Check
+        with sqlite3.connect(Path(__file__).parent / 'tistory.db') as con:
+            cur = con.cursor()
+            pid = cls.get_pid_from_title(title=title)
+            if pid is not None:
+                raise RuntimeError("DB Integrity is broken")
+            cur.close()
+
         api_url = cls.BASE_URL + '/apis/post/write'
         api_params = {
             'access_token': cls.ACCESS_TOKEN,
@@ -227,32 +235,7 @@ class Tistory:
 
 
 def test():
-    # category_list = Tistory.get_category_list(access_token=access_token)
-    # print(category_list)
-    # post_list = Tistory.get_post_list(access_token=access_token)
-    # post_read = Tistory.post_read(access_token=access_token, post_id=4)
-    # print(post_read)
-    # md_file_path = Path('../../post/Cheatsheets/Docker/$ docker images.md')
-    # html = Tistory.md_to_html(file_path=md_file_path)
-    # print(html)
-    # post_write = Tistory.post_write(access_token=access_token, title=md_file_path.stem, content=html, category_id=1151033)
-    # print(post_write)
-
-    # con = sqlite3.connect('./tistory.db')
-    # cur = con.cursor()
-    # post_id = 4
-    # post_title = 'fdsa'
-    # cur.execute(f"CREATE TABLE Post(id int, title text);")
-    # cur.execute(f"INSERT INTO Post VALUES(?, ?);", (post_id, post_title))
-
-    # cur.execute("SELECT * FROM Post")
-    # print(cur.fetchall())
-    # cur.close()
-    # con.commit()
-    # con.close()
-
-    print(Tistory.get_post_id_from_title(title='$ docker images'))
-    print(Tistory.get_title_from_post_id(post_id=13))
+    pass
 
 
 if __name__ == '__main__':
