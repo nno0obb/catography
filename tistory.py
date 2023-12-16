@@ -18,7 +18,7 @@ class Tistory:
 
     @classmethod
     def get_auth_code(cls):
-        api_url = cls.BASE_URL + f'/oauth/authorize'
+        api_url = cls.BASE_URL + '/oauth/authorize'
         api_params = {
             'client_id': cls.APP_ID,
             'redirect_uri': cls.CALLBACK_URI,
@@ -45,7 +45,7 @@ class Tistory:
 
     @classmethod
     def get_access_token(cls, auth_code: str):
-        api_url = cls.BASE_URL + f'/oauth/access_token'
+        api_url = cls.BASE_URL + '/oauth/access_token'
         api_params = {
             'client_id': cls.APP_ID,
             'client_secret': cls.SECRET_KEY,
@@ -61,13 +61,29 @@ class Tistory:
         return access_token
 
     @classmethod
+    def get_category_list(cls, access_token: str):
+        api_url = cls.BASE_URL + '/apis/category/list'
+        api_params = {
+            'access_token': access_token,
+            'output': 'json',
+            'blogName': cls.BLOG_NAME,
+        }
+
+        response = requests.get(url=api_url, params=api_params)
+        response.raise_for_status()
+
+        response_data = response.json()
+        category_list = response_data
+        return category_list
+
+    @classmethod
     def get_post_list(cls, access_token: str):
         api_url = cls.BASE_URL + '/apis/post/list'
         api_params = {
             'access_token': access_token,
             'output': 'json',
             'blogName': cls.BLOG_NAME,
-            'page': 1
+            'page': 1,
         }
 
         response = requests.get(url=api_url, params=api_params)
@@ -95,14 +111,15 @@ class Tistory:
         return post_read
 
     @classmethod
-    def post_write(cls, access_token: str, content: str):
+    def post_write(cls, access_token: str, title: str, content: str, category_id: int):
         api_url = cls.BASE_URL + '/apis/post/write'
         api_params = {
             'access_token': access_token,
             'output': 'json',
             'blogName': cls.BLOG_NAME,
-            'title': 'test',
+            'title': title,
             'content': content,
+            'category': category_id,
             'visibility': 3,
             'tag': 'asdf,fdsa',
         }
@@ -127,13 +144,16 @@ class Tistory:
 def test():
     auth_code = Tistory.get_auth_code()
     access_token = Tistory.get_access_token(auth_code=auth_code)
+    # category_list = Tistory.get_category_list(access_token=access_token)
+    # print(category_list)
     # post_list = Tistory.get_post_list(access_token=access_token)
-    post_read = Tistory.post_read(access_token=access_token, post_id=4)
-    print(post_read)
-    # html = Tistory.md_to_html(file_path=Path('./post/test.md'))
-    # print(html)
-    # post_write = Tistory.post_write(access_token=access_token, content=html)
-    # print(post_write)
+    # post_read = Tistory.post_read(access_token=access_token, post_id=4)
+    # print(post_read)
+    md_file_path = Path('post/Cheatsheets/Docker/$ docker images.md')
+    html = Tistory.md_to_html(file_path=md_file_path)
+    print(html)
+    post_write = Tistory.post_write(access_token=access_token, title=md_file_path.stem, content=html, category_id=1151033)
+    print(post_write)
 
 
 if __name__ == '__main__':
