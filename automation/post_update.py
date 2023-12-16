@@ -1,5 +1,6 @@
 import git
 import json
+import argparse
 from pathlib import Path
 
 # Custom
@@ -7,8 +8,11 @@ from utils import Tistory
 
 
 def main():
-    git_root_path = Path(git.Repo(search_parent_directories=True).working_dir)
-    md_file_path = Path(git_root_path / 'post' / 'Cheatsheets' / 'Docker' / '$ docker images.md')
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-f', '--file-path', required=True, type=Path)
+    args = parser.parse_args()
+
+    md_file_path = args.file_path.absolute()
 
     post_title = md_file_path.stem
     pid = Tistory.get_pid_from_title(title=post_title)

@@ -139,6 +139,10 @@ class Tistory:
             cur.close()
 
         api_url = cls.BASE_URL + '/apis/post/write'
+        api_header = {
+            'Accept': "application/json",
+            'Content-Type': "application/json",
+        }
         api_params = {
             'access_token': cls.ACCESS_TOKEN,
             'output': 'json',
@@ -235,7 +239,8 @@ class Tistory:
 
 
 def test():
-    pass
+    post_read = Tistory.post_read(pid=17)
+    print(post_read)
 
 
 if __name__ == '__main__':
