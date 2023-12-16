@@ -4,6 +4,7 @@ import sqlite3
 import requests
 import markdown
 from pathlib import Path
+from http import HTTPStatus
 from playwright.sync_api import sync_playwright
 
 # https://tistory.github.io/document-tistory-apis/auth/authorization_code.html
@@ -155,6 +156,8 @@ class Tistory:
         }
 
         response = requests.post(url=api_url, params=api_params)
+        if response.status_code == HTTPStatus.NOT_ACCEPTABLE:  # 406
+            raise RuntimeError("Reach the max count of publish post(=15) in day")
         response.raise_for_status()
 
         response_data = response.json()

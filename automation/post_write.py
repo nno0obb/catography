@@ -19,7 +19,6 @@ def main():
 
     post_title = md_file_path.stem
     post_content = Tistory.md_to_html(file_path=md_file_path)
-    print(post_content)
 
     post = Tistory.post_write(title=post_title, content=post_content, category_id=post_category_id)
     print(json.dumps(post, ensure_ascii=False, indent=4))
