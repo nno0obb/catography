@@ -10,5 +10,5 @@ k8s.gcr.io/etcd                      3.5.3-0   a9a710bb96df   20 months ago   17
 k8s.gcr.io/pause                     3.7       e5a475a03805   21 months ago   514kB
 k8s.gcr.io/coredns/coredns           v1.8.6    edaa71f2aee8   2 years ago     46.8MB
 docker/desktop-vpnkit-controller     v2.0      2edf9c994f19   2 years ago     19.2MB
-docker/desktop-storage-provisioner   v2.0      c027a58fa0bb   2 years ago     39.8MB kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+docker/desktop-storage-provisioner   v2.0      c027a58fa0bb   2 years ago     39.8MB
 ```
