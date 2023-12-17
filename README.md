@@ -1,1 +1,1 @@
-# tistory-blog
+# Obsidian + Tistory

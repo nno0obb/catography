@@ -1,6 +1,5 @@
 import json
 from tabulate import tabulate
-from collections import defaultdict
 
 # Custom
 from utils import Tistory

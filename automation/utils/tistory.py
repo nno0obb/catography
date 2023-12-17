@@ -207,7 +207,13 @@ class Tistory:
         if not file_path.exists():
             raise RuntimeError('Given "file_path" not exists')
         with open(file_path, 'r') as f:
-            html = markdown.markdown(f.read(), extensions=['nl2br', 'fenced_code'])
+            lines = f.readlines()
+            if lines[0] == '---\n':  # Obsidian Property
+                ed = lines.index('---\n', 1) + 1
+                lines = lines[ed+1:]
+
+            md = ''.join(lines)
+            html = markdown.markdown(md, extensions=['nl2br', 'fenced_code'])
         return html
 
     @classmethod
@@ -242,8 +248,7 @@ class Tistory:
 
 
 def test():
-    post_read = Tistory.post_read(pid=17)
-    print(post_read)
+    pass
 
 
 if __name__ == '__main__':

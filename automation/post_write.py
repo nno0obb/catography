@@ -1,6 +1,5 @@
 import argparse
 
-import git
 import json
 from pathlib import Path
 

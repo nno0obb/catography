@@ -1,3 +1,8 @@
+---
+tags:
+  - published
+---
+
 ```zsh
 [ local ] ~ ➜ docker images
 REPOSITORY                           TAG       IMAGE ID       CREATED         SIZE
