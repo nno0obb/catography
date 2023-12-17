@@ -13,11 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post/PS/백준/[ 10989 ] 수 정렬하기 3.md",
+                "file": "post/nno0obb.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "273351bd2e3ac296"
+          }
+        ]
+      },
+      {
+        "id": "b9855c44b989ce95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fd5e65e791c6bbc",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "post/nno0obb.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            },
+            "group": "273351bd2e3ac296"
           }
         ]
       }
@@ -85,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "post/PS/백준/[ 10989 ] 수 정렬하기 3.md",
+                "file": "post/nno0obb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "post/PS/백준/[ 10989 ] 수 정렬하기 3.md",
+                "file": "post/nno0obb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "post/PS/백준/[ 10989 ] 수 정렬하기 3.md"
+                "file": "post/nno0obb.md"
               }
             }
           }
@@ -148,10 +191,16 @@
   },
   "active": "9223d4f46c58f28c",
   "lastOpenFiles": [
-    "post/PS/백준/[ 2609 ] 최대공약수와 최소공배수.md",
-    "post/PS/백준/[ 2869 ] 달팽이는 올라가고 싶다.md",
     "post/PS/백준/[ 10989 ] 수 정렬하기 3.md",
+    "post/PS/백준/[ 2869 ] 달팽이는 올라가고 싶다.md",
+    "post/PS/백준/[ 2609 ] 최대공약수와 최소공배수.md",
+    "post/nno0obb.md",
+    "post/PS/백준/백준.md",
+    "post/PS/PS.md",
+    "post/Cheatsheets/Cheatsheets.md",
+    "post/Cheatsheets/Docker/Docker.md",
     "post/Cheatsheets/Docker/$ docker images.md",
+    "README.md",
     "automation/utils/__pycache__/tistory.cpython-310.pyc",
     "automation/utils/__pycache__/__init__.cpython-310.pyc",
     "automation/utils/__pycache__",
@@ -169,7 +218,6 @@
     "venv-catography/lib/python3.10/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
     "venv-catography/lib/python3.10/site-packages/playwright/driver/package/bin/README.md",
     "venv-catography/lib/python3.10/site-packages/playwright/driver/package/README.md",
-    "venv-catography/lib/python3.10/site-packages/playwright/driver/README.md",
-    "README.md"
+    "venv-catography/lib/python3.10/site-packages/playwright/driver/README.md"
   ]
 }

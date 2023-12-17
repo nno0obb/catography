@@ -1,0 +1,36 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "BoBxsSpreadsheet",
+      "BoBxSpreadsheet",
+      "BoBxFolderOpen"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true
+  },
+  "post/Cheatsheets": "BoBxFolderOpen",
+  "post/Cheatsheets/Docker": "BoBxFolderOpen",
+  "post/Cheatsheets/Docker/Docker.md": "BoBxsSpreadsheet",
+  "post/PS": "BoBxFolderOpen",
+  "post/PS/백준": "BoBxFolderOpen",
+  "post/PS/백준/백준.md": "BoBxsSpreadsheet",
+  "post/Cheatsheets/Cheatsheets.md": "BoBxsSpreadsheet",
+  "post/PS/PS.md": "BoBxsSpreadsheet",
+  "post/nno0obb.md": "BoBxsSpreadsheet"
+}
