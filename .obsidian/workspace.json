@@ -13,54 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post/nno0obb.md",
+                "file": "post/PS/백준/백준.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "273351bd2e3ac296"
-          }
-        ]
-      },
-      {
-        "id": "b9855c44b989ce95",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6fd5e65e791c6bbc",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "post/nno0obb.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
-              }
-            },
-            "group": "273351bd2e3ac296"
+            }
           }
         ]
       }
@@ -128,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "post/nno0obb.md",
+                "file": "post/PS/백준/백준.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "post/nno0obb.md",
+                "file": "post/PS/백준/백준.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "post/nno0obb.md"
+                "file": "post/PS/백준/백준.md"
               }
             }
           }
@@ -191,10 +148,10 @@
   },
   "active": "9223d4f46c58f28c",
   "lastOpenFiles": [
+    "post/nno0obb.md",
     "post/PS/백준/[ 10989 ] 수 정렬하기 3.md",
     "post/PS/백준/[ 2869 ] 달팽이는 올라가고 싶다.md",
     "post/PS/백준/[ 2609 ] 최대공약수와 최소공배수.md",
-    "post/nno0obb.md",
     "post/PS/백준/백준.md",
     "post/PS/PS.md",
     "post/Cheatsheets/Cheatsheets.md",
