@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post/Cheatsheets/Docker/$ docker images.md",
+                "file": "post/Insight/인문∕사회∕심리/유퀴즈155화 - 한국인의 말과 행동에 감춰진 심리.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "post/Cheatsheets/Docker/$ docker images.md",
+                "file": "post/Insight/인문∕사회∕심리/유퀴즈155화 - 한국인의 말과 행동에 감춰진 심리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "post/Cheatsheets/Docker/$ docker images.md",
+                "file": "post/Insight/인문∕사회∕심리/유퀴즈155화 - 한국인의 말과 행동에 감춰진 심리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "post/Cheatsheets/Docker/$ docker images.md"
+                "file": "post/Insight/인문∕사회∕심리/유퀴즈155화 - 한국인의 말과 행동에 감춰진 심리.md"
               }
             }
           }
@@ -161,6 +161,14 @@
   },
   "active": "0c5acdc8942580d3",
   "lastOpenFiles": [
+    "static/portal_01.jpg",
+    "post/Insight/인문∕사회∕심리/test3.md",
+    "post/Insight/인문∕사회∕심리/test2.md",
+    "post/Insight/인문∕사회∕심리/test.md",
+    "post/Cheatsheet/Docker/$ docker images.md",
+    "post/Insight/인문∕사회∕심리/유퀴즈155화 - 한국인의 말과 행동에 감춰진 심리.md",
+    "post/Cheatsheet/Cheatsheets.md",
+    "post/Book ( CSE )/기초부터 다지는 Elasticsearch 운영 노하우/1장 ElasticSearch 훑어보기.md",
     "post/Books ( CSE )/기초부터 다지는 Elasticsearch 운영 노하우/1장 ElasticSearch 훑어보기.md",
     "post/Books ( CSE )/기초부터 다지는 Elasticsearch 운영 노하우",
     "post/Books ( Non-CSE )",
