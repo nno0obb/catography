@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post/PS/백준/백준.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c5acdc8942580d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post/Cheatsheets/Docker/$ docker images.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "post/PS/백준/백준.md",
+                "file": "post/Cheatsheets/Docker/$ docker images.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "post/PS/백준/백준.md",
+                "file": "post/Cheatsheets/Docker/$ docker images.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "post/PS/백준/백준.md"
+                "file": "post/Cheatsheets/Docker/$ docker images.md"
               }
             }
           }
@@ -146,18 +159,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9223d4f46c58f28c",
+  "active": "0c5acdc8942580d3",
   "lastOpenFiles": [
-    "post/PS/백준/[ 11653 ] 소인수분해.md",
+    "post/Books ( CSE )/기초부터 다지는 Elasticsearch 운영 노하우/1장 ElasticSearch 훑어보기.md",
+    "post/Books ( CSE )/기초부터 다지는 Elasticsearch 운영 노하우",
+    "post/Books ( Non-CSE )",
+    "post/Books ( CSE )",
+    "post/Books",
+    "post/Cheatsheets/Docker/Docker.md",
+    "post/Cheatsheets/Cheatsheets.md",
     "post/nno0obb.md",
+    "post/Cheatsheets/Docker/$ docker images.md",
+    "post/PS/백준/백준.md",
+    "post/PS/백준/[ 11653 ] 소인수분해.md",
     "post/PS/백준/[ 10989 ] 수 정렬하기 3.md",
     "post/PS/백준/[ 2869 ] 달팽이는 올라가고 싶다.md",
     "post/PS/백준/[ 2609 ] 최대공약수와 최소공배수.md",
-    "post/PS/백준/백준.md",
     "post/PS/PS.md",
-    "post/Cheatsheets/Cheatsheets.md",
-    "post/Cheatsheets/Docker/Docker.md",
-    "post/Cheatsheets/Docker/$ docker images.md",
     "README.md",
     "automation/utils/__pycache__/tistory.cpython-310.pyc",
     "automation/utils/__pycache__/__init__.cpython-310.pyc",
@@ -165,10 +183,6 @@
     "venv-catography/bin/tabulate",
     "venv-catography/lib/python3.10/site-packages/tabulate/__pycache__/__init__.cpython-310.pyc",
     "venv-catography/lib/python3.10/site-packages/tabulate/__pycache__/version.cpython-310.pyc",
-    "venv-catography/lib/python3.10/site-packages/tabulate/__pycache__",
-    "venv-catography/lib/python3.10/site-packages/tabulate-0.9.0.dist-info/top_level.txt",
-    "venv-catography/lib/python3.10/site-packages/tabulate-0.9.0.dist-info/entry_points.txt",
-    "venv-catography/lib/python3.10/site-packages/tabulate-0.9.0.dist-info/WHEEL",
     "venv-catography/lib/python3.10/site-packages/idna-3.6.dist-info/LICENSE.md",
     "venv-catography/lib/python3.10/site-packages/Markdown-3.5.1.dist-info/LICENSE.md",
     "venv-catography/lib/python3.10/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
